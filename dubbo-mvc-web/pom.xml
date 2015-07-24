@@ -46,4 +46,8 @@
             <artifactId>spring-webmvc</artifactId>
         </dependency>
     </dependencies>
+
+    <build>
+        <finalName>${artifactId}</finalName>
+    </build>
 </project>
